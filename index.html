@@ -32,6 +32,16 @@ h3:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
+
+@media (max-width: 560px) {
+    h3:hover {
+        border-color: inherit;
+        color: #ffa260;
+        box-shadow: none;
+        transform: none;
+        cursor: default;
+    }
+}  
 }</style>
 
 </head>
