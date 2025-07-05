@@ -4,12 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudeesh Acharya</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Hover Effect</title>
+    <link rel="stylesheet" href="designing.css">
+<style>body {
+    background-color: #151b29;
+    font-family: Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h3 {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, translateY 0.25s;
+}
+
+h3:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}</style>
+
 </head>
 
 <body>
-    <h3>Coming Soon</h3>
+    <h3>Hover Me</h3>
 </body>
 
 </html>
